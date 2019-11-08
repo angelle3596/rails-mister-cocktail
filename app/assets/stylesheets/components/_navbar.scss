@@ -1,12 +1,34 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
   background: white;
+  height: 100px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+
+.navbar > h1 {
+  font-family: "Seaweed Script";
+  color: #342D50;
+  text-align: center;
+  font-size: 15px;
+  margin:0;
+  padding: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.new-cocktail-btn {
+  position: relative;
+  display: inline-block;
+  padding: 1.2em 2em;
+  text-decoration: none;
+  text-align: center;
+  color: #1E0233;
+  background-color: #895575;
+  border-radius: 10px;
+  font-size:15px;
+
 }
+
+.new-cocktail-btn:hover{
+  text-decoration: none;
+  color:white;
+}
+
