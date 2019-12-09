@@ -1,33 +1,31 @@
 .navbar {
   justify-content: space-between;
   background: white;
-  height: 100px;
-  color:#895575;
+  width:100%;
 }
 
+.navbar .navbar-collapse {
+  flex-grow: 0;
+}
 
-.navbar > h1 {
-  font-family: "Seaweed Script";
-  color: white;
-  text-align: center;
+.navbar h1{
+  padding: 25px 25px;
   font-size: 15px;
-  margin:0;
-  padding: 0;
-}
+  font-family: 'Open Sans Condensed', sans-serif;
 
-.new-cocktail-btn {
-  position: relative;
-  display: inline-block;
-  padding: 1.2em 2em;
+}
+.navbar h1:hover{
   text-decoration: none;
-  text-align: center;
-  color: #1E0233;
-  background-color: #895575;
-  border-radius: 10px;
-  font-size:15px;
-
 }
 
+.new-cocktail-btn{
+  color: black;
+  font-size:15px;
+  padding:15px;
+  background:#E7D3CC;
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .new-cocktail-btn:hover{
   text-decoration: none;
   color:white;
